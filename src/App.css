@@ -1,0 +1,95 @@
+/* App.css */
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f2f5;
+}
+
+form {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.login-heading h1 {
+  margin-bottom: 20px;
+}
+
+.login-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-input input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.login-input input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.login-condition {
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+ /* Position checkbox to the left of the text */
+}
+
+.login-condition input[type="checkbox"] {
+  margin-left: 10px; /* Space between checkbox and text */
+  margin-bottom: 15px;
+}
+
+.login-condition p {
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.login-condition p a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.login-condition p a:hover {
+  text-decoration: underline;
+}
+
+p {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+span {
+  color: #007bff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+span:hover {
+  text-decoration: underline;
+}
